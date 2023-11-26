@@ -5,7 +5,7 @@
 
 int main()
 {
-        int mb;
+        int mb, i;
         printf("Please enter the amount of memory (in MB) you would like to use: ");
         if (scanf("%d", &mb) != 1) {
             printf("Error: Invalid input\n");
