@@ -6,5 +6,5 @@ for full_path in "$dir"/*; do
     bin_name=${name%.*}
     bin_path="bin/$bin_name"
     echo $bin_path
-    gcc -o $bin_path $full_path
+    gcc -o $bin_path -lpthread $full_path
 done
