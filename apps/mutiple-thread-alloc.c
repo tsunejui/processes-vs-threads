@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <sys/syscall.h> 
+#include <string.h>
 
 int mb;
 
